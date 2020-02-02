@@ -1,0 +1,3 @@
+---
+message: "{{ lookup('template', 'message.j2') }}"
+webhook: 'https://outlook.office.com/webhook/your_teams_webhook'

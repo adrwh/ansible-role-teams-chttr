@@ -1,0 +1,12 @@
+---
+# This role logs a line to MS Teams
+- name: Log lines to MS Teams
+  uri: 
+    # url: http://0.0.0.0:80/anything
+    url: "{{ webhook }}"
+    body: "{{ message }}"
+    body_format: json
+    method: POST
+  register: r
+- debug: var=r
+    # - msg=msg

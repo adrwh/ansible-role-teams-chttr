@@ -1,2 +1,3 @@
-# ansible-role-teams-chttr
-Used to send message to Microsoft Teams using Ansible ad-hoc commands or playbooks.
+# Using ansible to send MS Teams messages
+
+Refer to my blog post at https://adrwh.github.io/blog/ansible-api-post-teams/
